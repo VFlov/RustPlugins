@@ -1,0 +1,2 @@
+C:\Users\VSP\Documents\GitHub\RustPlugins\RustPlugins\obj\Debug\RustPlugins.csproj.AssemblyReference.cache
+C:\Users\VSP\Documents\GitHub\RustPlugins\RustPlugins\obj\Debug\RustPlugins.csproj.CoreCompileInputs.cache

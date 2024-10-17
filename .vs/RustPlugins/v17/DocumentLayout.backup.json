@@ -3,12 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B24C64C6-8947-4C05-BCFE-68D4CE132726}|RustPlugins\\RustPlugins.csproj|c:\\users\\vsp\\documents\\github\\rustplugins\\rustplugins\\laserpistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{608FDB69-C8D5-4FB2-BA28-BD1886E5EC2A}|QuestsRust\\QuestsRust.csproj|c:\\users\\vsp\\documents\\github\\rustplugins\\questsrust\\quests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608FDB69-C8D5-4FB2-BA28-BD1886E5EC2A}|QuestsRust\\QuestsRust.csproj|solutionrelative:questsrust\\quests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VSP\\Desktop\\CuiBuilder\\Debug\\Quests.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608FDB69-C8D5-4FB2-BA28-BD1886E5EC2A}|QuestsRust\\QuestsRust.csproj|C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\questsrust\\quests2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608FDB69-C8D5-4FB2-BA28-BD1886E5EC2A}|QuestsRust\\QuestsRust.csproj|solutionrelative:questsrust\\quests2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24C64C6-8947-4C05-BCFE-68D4CE132726}|RustPlugins\\RustPlugins.csproj|C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\rustplugins\\laserpistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B24C64C6-8947-4C05-BCFE-68D4CE132726}|RustPlugins\\RustPlugins.csproj|solutionrelative:rustplugins\\laserpistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B24C64C6-8947-4C05-BCFE-68D4CE132726}|RustPlugins\\RustPlugins.csproj|C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\rustplugins\\givepistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B24C64C6-8947-4C05-BCFE-68D4CE132726}|RustPlugins\\RustPlugins.csproj|solutionrelative:rustplugins\\givepistol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VSP\\Downloads\\Quests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +33,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GivePistol.cs",
-              "DocumentMoniker": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\RustPlugins\\GivePistol.cs",
-              "RelativeDocumentMoniker": "RustPlugins\\GivePistol.cs",
-              "ToolTip": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\RustPlugins\\GivePistol.cs",
-              "RelativeToolTip": "RustPlugins\\GivePistol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T05:22:39.196Z",
+              "Title": "Quests.json",
+              "DocumentMoniker": "C:\\Users\\VSP\\Desktop\\CuiBuilder\\Debug\\Quests.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\CuiBuilder\\Debug\\Quests.json",
+              "ToolTip": "C:\\Users\\VSP\\Desktop\\CuiBuilder\\Debug\\Quests.json",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\CuiBuilder\\Debug\\Quests.json",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-10T16:01:31.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Quests.cs",
+              "DocumentMoniker": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\QuestsRust\\Quests.cs",
+              "RelativeDocumentMoniker": "QuestsRust\\Quests.cs",
+              "ToolTip": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\QuestsRust\\Quests.cs",
+              "RelativeToolTip": "QuestsRust\\Quests.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAADwvx4BAAB4TwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T08:38:34.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quests2.cs",
+              "DocumentMoniker": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\QuestsRust\\Quests2.cs",
+              "RelativeDocumentMoniker": "QuestsRust\\Quests2.cs",
+              "ToolTip": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\QuestsRust\\Quests2.cs",
+              "RelativeToolTip": "QuestsRust\\Quests2.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T11:04:07.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quests.cs",
+              "DocumentMoniker": "C:\\Users\\VSP\\Downloads\\Quests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\Quests.cs",
+              "ToolTip": "C:\\Users\\VSP\\Downloads\\Quests.cs",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\Quests.cs",
+              "ViewState": "AgIAAPELAAAAAAAAAAAIwA4MAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:58:15.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LaserPistol.cs",
               "DocumentMoniker": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\RustPlugins\\LaserPistol.cs",
               "RelativeDocumentMoniker": "RustPlugins\\LaserPistol.cs",
               "ToolTip": "C:\\Users\\VSP\\Documents\\GitHub\\RustPlugins\\RustPlugins\\LaserPistol.cs",
               "RelativeToolTip": "RustPlugins\\LaserPistol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T04:22:30.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T04:22:30.986Z"
             }
           ]
         }

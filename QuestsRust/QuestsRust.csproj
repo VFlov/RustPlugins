@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B24C64C6-8947-4C05-BCFE-68D4CE132726}</ProjectGuid>
+    <ProjectGuid>{608FDB69-C8D5-4FB2-BA28-BD1886E5EC2A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RustPlugins</RootNamespace>
-    <AssemblyName>RustPlugins</AssemblyName>
+    <RootNamespace>QuestsRust</RootNamespace>
+    <AssemblyName>QuestsRust</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,56 +31,59 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\RustPlugins\dll\FromGame\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>dll\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Console">
-      <HintPath>dll\Facepunch.Console.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Facepunch.Console.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Network">
-      <HintPath>dll\Facepunch.Network.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Facepunch.Network.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Rcon">
-      <HintPath>dll\Facepunch.Rcon.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Facepunch.Rcon.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Sqlite">
-      <HintPath>dll\Facepunch.Sqlite.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Facepunch.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.UnityEngine">
-      <HintPath>dll\Facepunch.UnityEngine.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Facepunch.UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Tds">
-      <HintPath>dll\Mono.Data.Tds.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Mono.Data.Tds.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>dll\MySql.Data.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Common">
-      <HintPath>dll\Oxide.Common.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.Common.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Core">
-      <HintPath>dll\Oxide.Core.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.Core.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.CSharp">
-      <HintPath>dll\Oxide.CSharp.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.MySql">
-      <HintPath>dll\Oxide.MySql.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.MySql.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.References">
-      <HintPath>dll\Oxide.References.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.References.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Rust">
-      <HintPath>dll\Oxide.Rust.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.Rust.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.SQLite">
-      <HintPath>dll\Oxide.SQLite.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="Oxide.Unity">
-      <HintPath>dll\Oxide.Unity.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Oxide.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Rust.Clans.Local">
-      <HintPath>dll\Rust.Clans.Local.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\Rust.Clans.Local.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -91,15 +94,16 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>dll\UnityEngine.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>dll\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\RustPlugins\dll\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LaserPistol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quests.cs" />
+    <Compile Include="Quests2.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
